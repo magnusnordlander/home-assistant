@@ -222,6 +222,15 @@ CAPABILITY_TO_SENSORS = {
             DEVICE_CLASS_TIMESTAMP,
         ),
     ],
+    "custom.washerRinseCycles": [
+        Map("washerRinseCycles", "Rinse Cycles", None, None)
+    ],
+    "custom.washerSpinLevel": [
+        Map("washerSpinLevel", "Spin Level", "rpm", None)
+    ],
+    "custom.washerWaterTemperature": [
+        Map("washerWaterTemperature", "Water Temperature", TEMP_CELSIUS, None)
+    ]
 }
 
 UNITS = {"C": TEMP_CELSIUS, "F": TEMP_FAHRENHEIT}
